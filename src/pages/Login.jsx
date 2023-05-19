@@ -9,7 +9,7 @@ const Login = () => {
           <p className="py-6">
             Join the conversation, meet new people, and make connections in one shared room.
           </p>
-          <button className="btn btn-primary">Login with Google</button>
+          <button className="btn">Login with Google</button>
         </div>
       </div>
     </div>
