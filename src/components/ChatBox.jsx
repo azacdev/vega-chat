@@ -2,8 +2,9 @@ import Message from "./Message"
 
 const ChatBox = () => {
   const messages = [
-    {id: 1,
-    text: "Hello There Anakin"
+    {
+      id: 1,
+      text: "Hello There Anakin"
     },
     {
       id: 2,
