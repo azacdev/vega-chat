@@ -1,20 +1,18 @@
 /* eslint-disable react/prop-types */
 
-const Message = ({ message }) => {
+const Message = ({ message: { name, text} }) => {
   return (
     <div>
       <div className="chat chat-start">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+            <img src="" />
           </div>
         </div>
         <div className="chat-header">
-          Obi-Wan Kenobi
-          <time className="text-xs opacity-50">12:45</time>
+          {name}
         </div>
-        <div className="chat-bubble">You were the Chosen One!</div>
-        <div className="chat-footer opacity-50">Delivered</div>
+        <div className="chat-bubble">{text}</div>
       </div>
     </div>
   );

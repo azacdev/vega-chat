@@ -4,11 +4,13 @@ const ChatBox = () => {
   const messages = [
     {
       id: 1,
-      text: "Hello There Anakin"
+      text: "Hello There Anakin",
+      name: "Azacdev"
     },
     {
       id: 2,
-      text: "Now you'll die Obiwan"
+      text: "Now you'll die Obiwan",
+      name: "Monarch"
     }
   ]
 
