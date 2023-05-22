@@ -16,6 +16,8 @@ export const AuthProvider = ({ children }) => {
     signInWithRedirect(auth, provider)
   }
 
+  // signout
+
   const value = {
     currentUser,
     setCurrentUser,
