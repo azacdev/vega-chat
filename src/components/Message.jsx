@@ -6,7 +6,7 @@ const Message = ({ message: { uid, name, text, avatar} }) => {
   const { currentUser } = UserAuth()
   return (
     <div>
-      <div className={`chat ${uid === currentUser.uid} ? " chat-end" : "chat-start"`}>
+      <div className={uid === currentUser.uid ? "chat chat-end" : "chat chat-start"}>
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
             <img src={avatar}/>
