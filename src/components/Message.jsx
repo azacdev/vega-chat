@@ -1,9 +1,12 @@
 /* eslint-disable react/prop-types */
 
-const Message = ({ message: { name, text, avatar} }) => {
+import { UserAuth } from "../context/AuthContext";
+
+const Message = ({ message: { uid, name, text, avatar} }) => {
+  const { currentUser } = UserAuth()
   return (
     <div>
-      <div className="chat chat-start">
+      <div className={`chat ${uid === currentUser.uid} ? " chat-end" : "chat-start"`}>
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
             <img src={avatar}/>
