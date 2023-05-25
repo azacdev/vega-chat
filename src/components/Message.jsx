@@ -6,7 +6,7 @@ const Message = ({ message: { name, text, avatar} }) => {
       <div className="chat chat-start">
         <div className="chat-image avatar">
           <div className="w-10 rounded-full">
-            <img src={avatar} />
+            <img src={avatar}/>
           </div>
         </div>
         <div className="chat-header">
