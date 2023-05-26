@@ -20,7 +20,6 @@ export const AuthProvider = ({ children }) => {
   const logout = () => signOut(auth)
 
   // signout
-
   const value = {
     currentUser,
     setCurrentUser,

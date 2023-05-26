@@ -28,7 +28,6 @@ const ChatBox = () => {
     });
     return () => unsubscribe
   }, []);
-  console.log(messages);
 
   return (
     <div className="pb-44 pt-20 containerWrap">
