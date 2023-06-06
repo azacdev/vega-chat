@@ -1,4 +1,4 @@
-# vega-chat
+# Vega-Chat
 
 ### Description
 A real-time chat application built using Vite React, Firebase, and Tailwind CSS. The app allows users to authenticate with their Google account and participate in live chat conversations.
