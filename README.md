@@ -6,7 +6,7 @@ A real-time chat application built using Vite React, Firebase, and Tailwind CSS.
 ### Technologies Used
 - Vite React: A fast and lightweight development server and build tool for React applications.
 - Firebase: A backend-as-a-service platform that provides authentication and real-time database functionality.
-- Tailwind CSS: A utility-first CSS framework for rapid UI development.
+- Tailwind CSS: A utility-first CSS framework for Rapid UI development.
 
 ### Key Features
 - Google user authentication: Users can sign in using their Google account for a personalized experience.
